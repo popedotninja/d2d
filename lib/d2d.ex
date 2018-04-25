@@ -1,18 +1,9 @@
 defmodule D2D do
   @moduledoc """
-  Documentation for D2D.
+  D2D, short for Debian 2 Docker, is an application that:
+
+  - polls for new versions of Debian
+  - for each new version discovered, builds a Debian container from scratch
+  - publishes each new container to Docker Hub
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> D2D.hello
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end

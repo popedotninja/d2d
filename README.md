@@ -2,7 +2,6 @@
 
 An application that:
 
-- runs on Debian
-- polls for new versions of Debian stable
+- polls for new versions of Debian
 - builds a container for each new version discovered
 - publishes each new container to Docker Hub
