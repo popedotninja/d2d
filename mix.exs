@@ -22,6 +22,8 @@ defmodule D2D.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      # static analyzer
+      {:dialyxir, ">= 0.0.0", only: :dev, runtime: false},
       # documentation generator
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
